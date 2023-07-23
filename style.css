@@ -149,3 +149,50 @@ li{
 .email:hover{
     color: white;
 }
+@media only screen and (max-width: 768px) {
+    html {
+      
+    }
+  
+    h1 {
+      font-size: 40px; 
+    }
+  
+    .picture-of-me {
+      width: 100%; 
+      height: auto; 
+    }
+  
+    .navbar {
+      
+    }
+  
+    .list {
+      flex-direction: column; 
+      margin-right: 0; 
+    }
+  
+    .home,
+    .aboutme,
+    .work,
+    .contactme {
+      padding: 0.5rem; 
+    }
+  
+    .first,
+    .about-me,
+    .past-projects,
+    .social-media {
+      height: auto; 
+    }
+  
+    .project-img {
+      width: 100%; 
+      height: auto; 
+      margin-bottom: 1rem; 
+    }
+  
+    .geometry {
+      display: none; 
+    }
+  }
