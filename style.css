@@ -164,11 +164,26 @@ li{
     }
   
     .navbar {
-      
-    }
+        justify-content: center; 
+        background: #191716; 
+      }
+    
+      .list {
+        flex-direction: column; 
+        margin-right: 0; 
+      }
+    
+      .home,
+      .aboutme,
+      .work,
+      .contactme {
+        padding: 0.5rem; 
+        font-size: 10px;
+      }
+    
   
     .list {
-      flex-direction: column; 
+      flex-direction: row; 
       margin-right: 0; 
     }
   
@@ -193,6 +208,14 @@ li{
     }
   
     .geometry {
-      display: none; 
+        width: 70%;
+        object-fit: contain;
+        position: absolute;
+        padding-bottom: 60%;
+    }
+
+    .picture-of-me{
+        width: 50%;
+        height: auto;
     }
   }
