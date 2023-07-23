@@ -149,9 +149,13 @@ li{
 .email:hover{
     color: white;
 }
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {
+    *{
+        box-sizing: border-box;
+    }
     html {
       display: block;
+      height: 100%;
     }
   
     h1 {
@@ -217,5 +221,30 @@ li{
     .picture-of-me{
         width: 50%;
         height: auto;
+    }
+  }*/
+  @media only screen and (max-width: 375px) {
+    h1 {
+      font-size: 30px;
+    }
+  
+    .picture-of-me {
+      width: 80%;
+    }
+  
+    .navbar {
+      /* You can further adjust the navbar styles for iPhone */
+    }
+  
+    .home,
+    .aboutme,
+    .work,
+    .contactme {
+      font-size: 12px;
+      padding: 0.3rem;
+    }
+  
+    .project-img {
+      width: 100%;
     }
   }
