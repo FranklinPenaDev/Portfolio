@@ -223,7 +223,7 @@ li{
         height: auto;
     }
   }*/
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 414px){
     h1 {
       font-size: 30px;
     }
@@ -232,8 +232,8 @@ li{
       width: 80%;
     }
   
-    .navbar {
-      /* You can further adjust the navbar styles for iPhone */
+    .list{
+        padding-right: 64px;
     }
   
     .home,
