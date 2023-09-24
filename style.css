@@ -149,68 +149,50 @@ li{
 .email:hover{
     color: white;
 }
-/*@media only screen and (max-width: 768px) {
-    *{
-        box-sizing: border-box;
-    }
-    html {
-      display: block;
-      height: 100%;
-    }
-  
+/* Media query for screens up to 768px (tablets) */
+@media only screen and (max-width: 768px) {
     h1 {
-      font-size: 40px; 
+        font-size: 40px;
     }
-  
+
     .picture-of-me {
-      width: 100%; 
-      height: auto; 
+        width: 100%;
+        height: auto;
     }
-  
+
     .navbar {
-        justify-content: center; 
-        background: #191716; 
-      }
-    
-      .list {
-        flex-direction: column; 
-        margin-right: 0; 
-      }
-    
-      .home,
-      .aboutme,
-      .work,
-      .contactme {
-        padding: 0.5rem; 
-        font-size: 10px;
-      }
-    
-  
+        justify-content: center;
+    }
+
     .list {
-      flex-direction: row; 
-      margin-right: 0; 
+        flex-direction: column;
+        margin-right: 0;
     }
-  
-    .home,
-    .aboutme,
-    .work,
-    .contactme {
-      padding: 0.5rem; 
+
+    .home, .aboutme, .work, .contactme {
+        padding: 0.5rem;
+        font-size: 10px;
     }
-  
-    .first,
-    .about-me,
-    .past-projects,
-    .social-media {
-      height: auto; 
+
+    .list {
+        flex-direction: row;
+        margin-right: 0;
     }
-  
+
+    .home, .aboutme, .work, .contactme {
+        padding: 0.5rem;
+    }
+
+    .first, .about-me, .past-projects, .social-media {
+        height: auto;
+    }
+
     .project-img {
-      width: 100%; 
-      height: auto; 
-      margin-bottom: 1rem; 
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
     }
-  
+
     .geometry {
         width: 70%;
         object-fit: contain;
@@ -218,34 +200,32 @@ li{
         padding-bottom: 60%;
     }
 
-    .picture-of-me{
+    .picture-of-me {
         width: 50%;
         height: auto;
     }
-  }*/
-  @media only screen and (max-width: 414px){
+}
+
+/* Media query for screens up to 414px (phones) */
+@media only screen and (max-width: 414px) {
     h1 {
-      font-size: 30px;
+        font-size: 30px;
     }
-  
+
     .picture-of-me {
-      width: 80%;
+        width: 80%;
     }
-  
-    .list{
+
+    .list {
         padding-right: 50px;
     }
-  
-    .home,
-    .aboutme,
-    .work,
-    .contactme {
-      font-size: 12px;
-      padding: 0.3rem;
+
+    .home, .aboutme, .work, .contactme {
+        font-size: 12px;
+        padding: 0.3rem;
     }
-  
+
     .project-img {
-      width: 100%;
-      
+        width: 100%;
     }
-  }
+}
