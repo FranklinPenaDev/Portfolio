@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica;
+}
+header{
+    display: flex;
+    
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+a:hover{
+    color: red;
+}
+#me{
+    display: flex;
+    justify-content: center;
+}
+img.me{
+    width: auto;
+    height: auto;
+}
+#about{
+    width: auto;
+    height: auto;
+    padding: 10px
+}
+.about-me{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 22px;
+    border: 3px solid black;
+}
