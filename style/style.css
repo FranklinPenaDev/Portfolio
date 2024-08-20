@@ -6,6 +6,9 @@ body{
 }
 header{
     display: flex;
+    width: 100%;
+    height: auto;
+    background-color: grey;
     
 }
 li{
@@ -28,8 +31,17 @@ img.me{
     width: auto;
     height: auto;
 }
+ul{
+    width: 100%;
+}
+li{
+    display: inline-block;
+    width: 175px
+}
 #about{
-    width: auto;
-    height: auto;
-    padding: 10px
+    font-size: 36px;
+    text-align: center;
+}
+#about p{
+    padding: 10% 20% 20% 20%;
 }
