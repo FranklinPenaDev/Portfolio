@@ -94,11 +94,31 @@ h2{
     height: 200px;
 }
 #contact p{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.submital{
+    width: 100%;
+    height: auto;
+}
+
+
+
+#textarea{
+    position: relative;
+    left: 22%;
+}
+
+#button{
     display: flex;
     justify-content: center;
-    margin-top: 20%;
-    font-size: 40px;
 }
-#contact p a{
-    font-size: 40px;
+
+#submit{
+    width: 125px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
 }
