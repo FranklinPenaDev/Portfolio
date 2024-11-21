@@ -16,7 +16,7 @@ li{
 a{
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
 }
 a:hover{
@@ -91,24 +91,28 @@ h2{
 }
 #contact{
     width: 100%;
-    height: 200px;
+    height: auto;
+    display: flex;
 }
-#contact p{
+.para{
+    width: 50%;
+}
+.para p{
     text-align: center;
     margin-top: 20%;
-    font-size: 30px;
+    font-size: 24px;
 }
-
+.description{
+    text-align: center;
+    font-size: 24px;
+}
 .submital{
-    width: 100%;
+    width: 50%;
     height: auto;
 }
-
-
-
 #textarea{
     position: relative;
-    left: 22%;
+    font-size: 18px;
 }
 
 #button{
